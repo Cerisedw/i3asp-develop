@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Director]
+       [dbo].[Genre]
+       [dbo].[Movie]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Movie].[Age] on table [dbo].[Movie] must be added, but the column has no default value and does not
+         allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add
+         a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a
+         deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[Director] (Table)
+       [dbo].[Genre] (Table)
+       [dbo].[Movie] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_DirectorMovie_ToDirector] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToGenre] (Foreign Key)
+       [dbo].[FK_Critics_ToMovie] (Foreign Key)
+       [dbo].[FK_DirectorMovie_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieCast_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToMovie] (Foreign Key)
+       [dbo].[FK_Rating_ToMovie] (Foreign Key)
+     Create
+       [dbo].[FK_DirectorMovie_ToDirector] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToGenre] (Foreign Key)
+       [dbo].[FK_Critics_ToMovie] (Foreign Key)
+       [dbo].[FK_DirectorMovie_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieCast_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToMovie] (Foreign Key)
+       [dbo].[FK_Rating_ToMovie] (Foreign Key)
+
+The column [dbo].[Movie].[Age] on table [dbo].[Movie] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

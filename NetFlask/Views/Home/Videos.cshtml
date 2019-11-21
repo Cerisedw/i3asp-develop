@@ -1,0 +1,53 @@
+﻿@using NetFlask.Models
+
+@{
+    ViewBag.Title = "Best Movies - NetFlask 4Ever";
+
+}
+@section HeaderInfo
+{
+    @{
+        Html.RenderPartial("~/Views/Shared/_GeneralHeader.cshtml");
+    }
+}
+
+
+
+    <div class="right-content">
+        <div class="right-content-heading">
+            <div class="right-content-heading-left">
+                <h3 class="head">Videos</h3>
+            </div>
+        </div>
+        @Styles.Render("~/Content/PopuoCss")
+        @Scripts.Render("~/Scripts/Pop")
+        <!--//pop-up-box -->
+
+        <div class="content-grids">
+            @{
+                foreach (MovieInfo movie in Model)
+                {
+                    Html.RenderPartial("~/Views/Home/_PartialVideo.cshtml", movie);
+                }
+            }
+            <div class="clearfix"> </div>
+            <!---start-pagenation----->
+            <div class="pagenation">
+                <ul>
+                    <li><a href="/Home/Videos">1</a></li>
+                    <li><a href="/Home/Videos/2">2</a></li>
+                    <li><a href="/Home/Videos/3">3</a></li>
+                    <li><a href="/Home/Videos/4">4</a></li>
+                    <li><a href="/Home/Videos/5">5</a></li>
+                    @if (@ViewBag.NextPageNmb < 6 && @ViewBag.NextPageNmb >= 0)
+                    {
+                        <li><a href="/Home/Videos/@ViewBag.NextPageNmb">Next</a></li>
+                    }
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+            <!---End-pagenation----->
+        </div>
+    </div>
+<div class="clearfix"> </div>
+			</div>	

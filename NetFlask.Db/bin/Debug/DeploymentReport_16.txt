@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[Director].[IdCrew] (Column)
+     Create
+       [dbo].[Crew] (Table)
+       [dbo].[CrewMovie] (Table)
+       [dbo].[FK_DirectorMovie_ToMovie] (Foreign Key)
+       [dbo].[FK_DirectorMovie_ToDirector] (Foreign Key)
+
+** Supporting actions

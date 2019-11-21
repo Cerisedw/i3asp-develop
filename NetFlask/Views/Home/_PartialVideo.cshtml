@@ -1,0 +1,16 @@
+﻿@model NetFlask.Models.MovieInfo
+
+    <div class="content-grid">
+        <a class="play-icon popup-with-zoom-anim" href="#small-dialog-@Model.IdMovie">
+            <img src="https://image.tmdb.org/t/p/w500/@Model.Picture" title="allbum-name" />
+        </a>
+        <h3>@Model.Title</h3>
+        <ul class="button">
+            <li><a href="#"><img src="/images/likes.png" title="image-name" /></a></li>
+            <li><a href="#"><img src="/images/views.png" title="image-name" /></a></li>
+            <li><a href="#"><img src="/images/link.png" title="image-name" /></a></li>
+        </ul>
+    </div>
+    <div id="small-dialog-@Model.IdMovie" class="mfp-hide">
+        <iframe src="@Model.Video" frameborder="0" allowfullscreen></iframe>
+    </div>

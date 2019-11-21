@@ -1,0 +1,28 @@
+﻿@model NetFlask.Models.MovieInfo
+<div class="header" style="background-image:url('/images/@Model.Picture')">
+    <div class="top-header" >
+        <div class="logo">
+            <a href="/Home/Index"><img src="/images/logo.png" alt="" /></a>
+            <p>Movie Theater</p>
+        </div>
+        <div class="search">
+            @{ 
+                Html.RenderPartial("~/Views/Shared/_SimpleSearch.cshtml");
+            }
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="header-info" >
+        <h1>@Model.Title</h1>
+        <p class="age"><a href="#">@Model.Age</a> @Model.Director</p>
+        <p class="review">Rating	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp;  @Model.Rating/10</p>
+        <p class="review reviewgo">Genre	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; @Model.Gender</p>
+        <p class="review">
+            Release &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; @Model.Release.ToString("ddd d MMM",
+            System.Globalization.CultureInfo.CreateSpecificCulture("fr-FR"))
+        </p>
+        <p class="special">@Model.Summary</p>
+        <a class="video" href="@Model.Video"><i class="video1"></i>WATCH TRAILER</a>
+        <a class="book" href="#"><i class="book1"></i>BOOK TICKET</a>
+    </div>
+</div>

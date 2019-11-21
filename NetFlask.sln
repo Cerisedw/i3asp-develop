@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask", "NetFlask\NetFlask.csproj", "{01CABC62-F451-4F33-A2A2-48606C9ED7D9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NetFlask.Db", "NetFlask.Db\NetFlask.Db.sqlproj", "{B899E694-7754-453B-B66C-DB90A1F03C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.LoadDbFromTmdb", "NetFlask.LoadDbFromTmdb\NetFlask.LoadDbFromTmdb.csproj", "{2438703D-27ED-4EC5-B994-A9563670736F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.Entities", "NetFlask.Entities\NetFlask.Entities.csproj", "{E0C1CC95-FC57-434A-A777-28EB0691D51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolBox", "ToolBox\ToolBox.csproj", "{6CB910DC-1F61-4E70-8BCC-2E95C29E32BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFlask.DAL", "NetFlask.DAL\NetFlask.DAL.csproj", "{BC321D38-F3D5-4633-8C36-151D39093496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01CABC62-F451-4F33-A2A2-48606C9ED7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CABC62-F451-4F33-A2A2-48606C9ED7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CABC62-F451-4F33-A2A2-48606C9ED7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CABC62-F451-4F33-A2A2-48606C9ED7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B899E694-7754-453B-B66C-DB90A1F03C50}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2438703D-27ED-4EC5-B994-A9563670736F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2438703D-27ED-4EC5-B994-A9563670736F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2438703D-27ED-4EC5-B994-A9563670736F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2438703D-27ED-4EC5-B994-A9563670736F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C1CC95-FC57-434A-A777-28EB0691D51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C1CC95-FC57-434A-A777-28EB0691D51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C1CC95-FC57-434A-A777-28EB0691D51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C1CC95-FC57-434A-A777-28EB0691D51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB910DC-1F61-4E70-8BCC-2E95C29E32BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB910DC-1F61-4E70-8BCC-2E95C29E32BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB910DC-1F61-4E70-8BCC-2E95C29E32BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB910DC-1F61-4E70-8BCC-2E95C29E32BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC321D38-F3D5-4633-8C36-151D39093496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC321D38-F3D5-4633-8C36-151D39093496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC321D38-F3D5-4633-8C36-151D39093496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC321D38-F3D5-4633-8C36-151D39093496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB44D91B-4475-41E4-9095-243B816DA8CF}
+	EndGlobalSection
+EndGlobal

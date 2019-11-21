@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Cast] (Table)
+       [dbo].[Crew] (Table)
+       [dbo].[CrewMovie] (Table)
+       [dbo].[Critics] (Table)
+       [dbo].[CriticsAuthor] (Table)
+       [dbo].[Genre] (Table)
+       [dbo].[Movie] (Table)
+       [dbo].[MovieCast] (Table)
+       [dbo].[MovieGenre] (Table)
+       [dbo].[Rating] (Table)
+       [dbo].[User] (Table)
+       [dbo].[FK_CrewMovie_ToMovie] (Foreign Key)
+       [dbo].[FK_CrewMovie_ToCrew] (Foreign Key)
+       [dbo].[FK_Critics_ToMovie] (Foreign Key)
+       [dbo].[FK_Critics_ToCriticsAuthor] (Foreign Key)
+       [dbo].[FK_MovieCast_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieCast_ToCast] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToMovie] (Foreign Key)
+       [dbo].[FK_MovieGenre_ToGenre] (Foreign Key)
+       [dbo].[FK_Rating_ToMovie] (Foreign Key)
+       [dbo].[FK_Rating_ToUser] (Foreign Key)
+
+** Supporting actions

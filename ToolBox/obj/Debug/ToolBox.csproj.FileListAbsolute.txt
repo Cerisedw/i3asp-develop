@@ -1,0 +1,16 @@
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\bin\Debug\ToolBox.dll
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\bin\Debug\ToolBox.pdb
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\obj\Debug\ToolBox.csprojAssemblyReference.cache
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\obj\Debug\ToolBox.csproj.CoreCompileInputs.cache
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\obj\Debug\ToolBox.dll
+D:\Briareos\Source\repos\DemoToolBox\ToolBox\obj\Debug\ToolBox.pdb
+C:\Users\Mike\source\repos\NetFlask\ToolBox\bin\Debug\ToolBox.dll
+C:\Users\Mike\source\repos\NetFlask\ToolBox\bin\Debug\ToolBox.pdb
+C:\Users\Mike\source\repos\NetFlask\ToolBox\obj\Debug\ToolBox.dll
+C:\Users\Mike\source\repos\NetFlask\ToolBox\obj\Debug\ToolBox.pdb
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\bin\Debug\ToolBox.dll
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\bin\Debug\ToolBox.pdb
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\obj\Debug\ToolBox.csprojAssemblyReference.cache
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\obj\Debug\ToolBox.csproj.CoreCompileInputs.cache
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\obj\Debug\ToolBox.dll
+C:\Users\c.wannemaeker\source\repos\i3asp-develop-Michael\ToolBox\obj\Debug\ToolBox.pdb
